@@ -1,0 +1,34 @@
+export TERM='xterm-256color'
+
+# Path to your oh-my-zsh installation.
+export ZSH=~/.oh-my-zsh
+
+POWERLEVEL9K_MODE='awesome-fontconfig'
+POWERLEVEL9K_DIR_WRITABLE_FORBIDDEN_FOREGROUND='white'
+
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(ssh dir rbenv nvm vcs)
+POWERLEVEL9K_RIGHT_SEGMENT_SEPARATOR=''
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=()
+
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
+POWERLEVEL9K_SHORTEN_DELIMITER=''
+POWERLEVEL9K_SHORTEN_STRATEGY='truncate_to_last'
+
+POWERLEVEL9K_SHOW_CHANGESET=true
+POWERLEVEL9K_VCS_GIT_HOOKS=(vcs-detect-changes git-untracked git-aheadbehind git-stash git-remotebranch git-tagname)
+POWERLEVEL9K_VCS_COMMIT_ICON='\uE729 '
+
+ZSH_THEME='powerlevel9k/powerlevel9k'
+
+plugins=(git jump zsh-completions)
+
+# zsh-completions: reloading the completion
+fpath=($ZSH/custom/plugins/zsh-completions/src $fpath)
+
+source $ZSH/oh-my-zsh.sh
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+alias ls='exa -l'
