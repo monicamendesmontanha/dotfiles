@@ -34,3 +34,10 @@ Once you are already inside `dotfiles`, you can run the command below to install
 ```
 $ ./zshell/install.sh
 ```
+
+3. Copy vscode settings & extensions config
+
+
+```
+$ ./vscode/install.sh
+```
