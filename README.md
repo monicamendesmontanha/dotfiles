@@ -88,7 +88,7 @@ Now you must navigate to where you clone the `dotfiles` repository:
 
 ```
 $ cd dotfiles
-$ brew bundle dump --file=brew/Brewfile
+$ brew bundle --file=brew/Brewfile
 ```
 
 ### 4. Install zshell
