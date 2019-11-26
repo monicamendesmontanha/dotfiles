@@ -22,6 +22,9 @@ ZSH_THEME='powerlevel9k/powerlevel9k'
 
 plugins=(git jump zsh-completions)
 
+# PATH for homebrew
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:$PATH"
+
 # zsh-completions: reloading the completion
 fpath=($ZSH/custom/plugins/zsh-completions/src $fpath)
 
