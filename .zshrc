@@ -34,7 +34,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$PATH:$HOME/.rvm/bin"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-alias ls='exa -l'
+#alias ls='exa -l'
 
 # Via https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md
 NPM_PACKAGES="${HOME}/.npm-packages"
