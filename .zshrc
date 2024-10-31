@@ -18,7 +18,7 @@ POWERLEVEL9K_SHOW_CHANGESET=true
 POWERLEVEL9K_VCS_GIT_HOOKS=(vcs-detect-changes git-untracked git-aheadbehind git-stash git-remotebranch git-tagname)
 POWERLEVEL9K_VCS_COMMIT_ICON='\uE729 '
 
-ZSH_THEME='powerlevel9k/powerlevel9k'
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(git jump zsh-completions)
 
