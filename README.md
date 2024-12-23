@@ -100,7 +100,7 @@ _More details [here](https://help.github.com/en/articles/adding-a-new-ssh-key-to
 ### 1. Clone this repository
 
 ```
-$ git clone git@github.com:monicamendesmontanha/dotfiles.git
+git clone git@github.com:monicamendesmontanha/dotfiles.git
 ```
 
 ### 2. Install homebrew
@@ -116,8 +116,8 @@ You can run the command below in any directory given it will install `homebrew` 
 Now you must navigate to where you clone the `dotfiles` repository:
 
 ```
-$ cd dotfiles
-$ brew bundle --file=brew/Brewfile
+cd dotfiles
+brew bundle --file=brew/Brewfile
 ```
 
 ### 4. Install zshell
@@ -126,12 +126,12 @@ Once you are already inside `dotfiles`, you can run the command below to install
 
 
 ```
-$ ./zshell/install.sh
+./zshell/install.sh
 ```
 
 ### 5. Copy vscode settings & extensions config
 
 
 ```
-$ ./vscode/install.sh
+./vscode/install.sh
 ```
